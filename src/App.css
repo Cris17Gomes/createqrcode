@@ -1,0 +1,31 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.input {
+  height: 38px;
+  border-radius: 8px;
+  max-width: 300px;
+  width: 100%;
+  margin: 24px 0;
+  padding: 8px;
+  outline: none;
+  border: 1px solid #b6b6b6;
+}
+a {
+  text-decoration: none;
+  background-color: #0b5ed7;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 6px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+a:hover {
+  background-color: #084298;
+}
